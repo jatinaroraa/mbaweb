@@ -90,7 +90,7 @@ export default function DisplayTable({ tableData, registrationAmount }) {
               {Object.entries(data).map((x) => {
                 return (
                   <td>
-                    <strong class="book-title">{x[1]}</strong>
+                    <strong className="book-title">{x[1]}</strong>
                   </td>
                 );
               })}
@@ -101,7 +101,7 @@ export default function DisplayTable({ tableData, registrationAmount }) {
 
       <tfoot>
         {registrationAmount ? (
-          <tr class="text-offset">
+          <tr className="text-offset">
             <td colspan="8">Registration</td>
             <td>{registrationAmount}</td>
           </tr>
@@ -109,7 +109,7 @@ export default function DisplayTable({ tableData, registrationAmount }) {
           ""
         )}
 
-        <tr class="text-offset">
+        <tr className="text-offset">
           <td colspan="8">Total</td>
           <td>
             {tableData.length

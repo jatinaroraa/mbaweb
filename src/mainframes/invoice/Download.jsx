@@ -13,7 +13,12 @@ import { Button } from "antd";
 import html2pdf from "html2pdf.js";
 import TermandCond from "../../components/generateBill/TermandCond";
 
-export default function Download({ tableData, formData, registrationAmount }) {
+export default function Download({
+  tableData,
+  formData,
+  registrationAmount,
+  pdfMode,
+}) {
   const convertPdf = () => {
     const element = document.getElementById("convertPdf");
     console.log(element, "element");
@@ -42,12 +47,16 @@ export default function Download({ tableData, formData, registrationAmount }) {
   };
   return (
     <>
-      <div className="pdfViewInvoice" id="convertPdf">
+      <div
+        className={!pdfMode ? "pdfViewInvoiceFalse" : "pdfViewInvoice"}
+        id="convertPdf"
+      >
         <h3
           style={{
             textAlign: "center",
             fontSize: "22px",
             marginBottom: "20px",
+            textDecoration: "underline",
           }}
         >
           INVOICE
@@ -57,15 +66,18 @@ export default function Download({ tableData, formData, registrationAmount }) {
             display: "flex",
             flexDirection: "row",
             justifyContent: "space-between",
+            // backgroundColor: "red",
+            // width: "65vw",
           }}
         >
-          <h1>MBA</h1>
+          <h1>MERIT BEAUTY ACADEMY</h1>
           <img
             src={require("../../assets/logo.jpeg")}
             style={{
               height: "70px",
               width: "70px",
               borderRadius: "30px",
+              marginTop: "20px",
             }}
           />
         </div>

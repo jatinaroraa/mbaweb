@@ -3,6 +3,7 @@ table {
   border-spacing: 0;
   color: #4a4a4d;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* background-color: #293f50; */
 }
 
 th,
@@ -44,6 +45,8 @@ td:first-child {
 .book-title {
   color: #395870;
   display: block;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .text-offset {

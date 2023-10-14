@@ -12,7 +12,7 @@ export default function Invoice() {
   const { tableData, formData, registrationAmount } = location.state;
   const downloadPdf = () => {
     const printElement = ReactDOMServer.renderToString(
-      Download({ tableData, formData, registrationAmount })
+      Download({ tableData, formData, registrationAmount, pdfMode: true })
     );
     // const printElement = pdfJSX();
 
@@ -42,6 +42,7 @@ export default function Invoice() {
           tableData={tableData}
           formData={formData}
           registrationAmount={registrationAmount}
+          pdfMode={false}
         />
       </div>
     </>
