@@ -16,7 +16,7 @@ export default function Invoice() {
     );
     // const printElement = pdfJSX();
 
-    html2pdf().from(printElement).save();
+    html2pdf().from(printElement).save("Invoice.pdf");
   };
   return (
     <>
