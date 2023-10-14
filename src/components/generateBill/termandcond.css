@@ -1,0 +1,14 @@
+.tandctitle {
+  margin-top: 20px;
+  /* background-color: black; */
+}
+.listUl {
+  /* background-color: red; */
+  margin-top: 10px;
+}
+.listUl li {
+  color: #555;
+  font-size: 12px;
+  margin: 5px 2px;
+  width: 100%;
+}

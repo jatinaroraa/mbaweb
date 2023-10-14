@@ -1,0 +1,61 @@
+.brandInfo {
+  display: flex;
+  flex-direction: column;
+}
+.pdfMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2f3f5;
+}
+.pdfViewInvoice {
+  background: white;
+  height: 110vh;
+  padding: 5vh 5vw;
+  width: 60%;
+}
+.studentDetails {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  margin: 5px 2px;
+}
+.studentDetailMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.studentDetailMain div {
+  width: 100%;
+  /* background-color: red; */
+}
+.profilediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
+.studentDetails p {
+  margin: 0px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  /* background-color: red; */
+}
+.brandInfo p {
+  margin: 0px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+  .studentDetailMain {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+}

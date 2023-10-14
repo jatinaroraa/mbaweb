@@ -1,0 +1,29 @@
+.customInput {
+  border: none;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  width: 40%;
+  margin: 0px 5px;
+}
+.customInputHeading {
+  border: none;
+  color: #555;
+  font-size: 24px;
+  font-weight: 600;
+  width: 40%;
+  margin: 10px 2px;
+}
+.customInput:focus-visible {
+  outline: none;
+  background-color: aqua;
+}
+.customInputHeading:focus-visible {
+  outline: none;
+  background-color: aqua;
+}
+@media screen and (max-width: 600px) {
+  .customInput {
+    width: 100%;
+  }
+}

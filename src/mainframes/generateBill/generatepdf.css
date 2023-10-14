@@ -1,0 +1,54 @@
+.brandInfo {
+  display: flex;
+  flex-direction: column;
+}
+.pdfMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2f3f5;
+}
+.pdfView {
+  background: white;
+  height: 110vh;
+  padding: 5vh 5vw;
+  width: 60%;
+}
+@media screen and (max-width: 600px) {
+  .pdfView {
+    width: 100%;
+  }
+}
+.studentDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.heading {
+  margin: 5px 2px;
+}
+.studentDetailMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.studentDetailMain div {
+  width: 100%;
+  /* background-color: red; */
+}
+@media screen and (max-width: 600px) {
+  .studentDetailMain {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+}
+.profilediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
