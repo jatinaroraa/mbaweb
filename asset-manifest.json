@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mbaweb/static/css/main.32ed1d4a.css",
+    "main.js": "/mbaweb/static/js/main.59c1f489.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/mbaweb/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/logo.jpeg": "/mbaweb/static/media/logo.5e447ea9c0c8ea35c5ab.jpeg",
+    "index.html": "/mbaweb/index.html",
+    "main.32ed1d4a.css.map": "/mbaweb/static/css/main.32ed1d4a.css.map",
+    "main.59c1f489.js.map": "/mbaweb/static/js/main.59c1f489.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/mbaweb/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32ed1d4a.css",
+    "static/js/main.59c1f489.js"
+  ]
+}
